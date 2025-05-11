@@ -92,7 +92,7 @@ A **runner** is a server that runs your workflows when they're triggered. Each r
 {% ifversion actions-hosted-runners %} {% data variables.product.prodname_dotcom %} also offers {% data variables.actions.hosted_runner %}s, which are available in larger configurations. For more information, see [AUTOTITLE](/actions/using-github-hosted-runners/using-larger-runners).
 {% endif %}
 If you need a different operating system or require a specific hardware configuration, you can host your own runners.
-{% endif %}
+{% workrunif %}
 
 For more information{% ifversion fpt or ghec %} about self-hosted runners{% endif %}, see [AUTOTITLE](/actions/hosting-your-own-runners).
 
